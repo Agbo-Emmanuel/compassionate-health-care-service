@@ -1,0 +1,74 @@
+.hero_appointment_body{
+    width: 100%;
+    /* background-color: blue; */
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hero_appointment_body > h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+
+.book_appointment_container{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
+
+.query{
+    width: 100%;
+    padding: 50px 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.query > h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+.query > p{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.query_contact_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+.query_contact_bit{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.query_contact_bit > h3{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.query_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgba(1, 91, 1, 0.176);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

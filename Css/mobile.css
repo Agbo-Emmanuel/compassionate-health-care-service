@@ -1,0 +1,483 @@
+@media screen and (max-width: 766px) {
+    .hero_header{
+        display: none;
+    }
+    .mobile_header{
+        display: flex;
+    }
+    .hero_section{
+        padding: 15px 20px 50px 20px;
+    }
+    .hero_body{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+    .hero_body_right{
+        display: none;
+    }
+    .hero_body_left{
+        width: 100%;
+        gap: 20px;
+    }
+    .hero_btn{
+        margin-top: 10px;
+    }
+
+    .section1{
+        padding: 15px 20px 15px 20px;
+        /* background-color: yellow; */
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section1_left{
+        width: 100%;
+        height: 300px;
+    }
+    .section1_right{
+        width: 100%;
+        height: max-content;
+        /* background-color: red; */
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .section1_right_btn{
+        width: 50%;
+        height: 55px;
+    }
+    .section1_right > h1{
+        font-size: 28px;
+        font-family: "Roboto", sans-serif;
+        line-height: 40px;
+    }
+
+    .section2{
+        padding: 70px 20px 70px 20px;
+        position: none;
+    }
+    .service_box{
+        width: 100%;
+    }
+    .read_book_appointment{
+        width: 100%;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+        position: none;
+        bottom: 0px;
+    }
+    .read_book{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .read_book_left{
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        gap: 15px;
+    }
+    .read_book_left > h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .read_book_left > p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .read_book_right{
+        width: 100%;
+        height: 300px;
+    }
+    .reserve_slot_btn{
+        margin-top: 20px;
+    }
+
+    .not_sure{
+        height: auto;
+        padding: 0px 20px 0px 20px;
+    }
+    .not_sure_book{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .not_sure_book_right{
+        width: 100%;
+        height: 300px;
+    }
+    .not_sure_book_left{
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        gap: 15px;
+    }
+    .not_sure_book_left > h1{
+        font-size: 25px;
+    }
+
+    .section3{
+        width: 100%;
+        padding: 10px 20px 10px 20px;
+        margin-top: 50px;
+        gap: 15px;
+    }
+    .section3 > h3{
+        font-size: 25px;
+    }
+    .section3 > h1{
+        font-size: 26px;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+    }
+    .section3_appointment_link{
+        height: auto;
+        flex-direction: column;
+    }
+    .section3_a_link_left{
+        width: 100%;
+        height: 300px;
+    }
+    .section3_a_link_right{
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .nurse_duty{
+        padding: 0px 20px;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .nurse_duty_left{
+        width: 100%;
+        gap: 10px;
+    }
+    .nurse_duty_right{
+        width: 100%;
+        height: 300px;
+    }
+
+    .section4{
+        padding: 70px 20px 70px 20px;
+        gap: 15px;
+
+    }
+    .section4 > h1{
+        font-size: 30px;
+    }
+    .testimonial_card{
+        width: 100%;
+    }
+
+    .section5{
+        padding: 50px 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .section5_bit{
+        flex-direction: column;
+    }
+    .section5_bit > h3{
+        text-align: center;
+        line-height: 30px;
+    }
+    .phone_icon{
+        width: 50px;
+        height: 50px;
+    }
+    .section5_icon{
+        font-size: 15px;
+    }
+
+    .footer_top{
+        flex-direction: column;
+        padding: 0px 0px;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer_logo_part{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .footer_links{
+        align-items: center;
+    }
+    .footer_links > h2{
+        font-size: 20px;
+    }
+    .footer_links > a{
+        font-size: 16px;
+    }
+    .footer_bottom{
+        width: 100%;
+        border-top: 1px solid rgb(236, 236, 236);
+        padding: 50px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .footer_bottom > p{
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .about_section4{
+        padding: 70px 20px 70px 20px;
+        gap: 15px;
+
+    }
+    .about_section4 > h1{
+        font-size: 30px;
+    }
+
+    .about_section1{
+        flex-direction: column;
+        padding: 15px 20px 15px 20px;
+        gap: 20px;
+    }
+    .about_section1_left{
+        width: 100%;
+        height: 300px;
+    }
+    .about_section1_right{
+        width: 100%;
+    }
+    .about_section1_right > h3{
+        font-size: 25px;
+    }
+
+    .about_section2{
+        padding: 0px 20px 0px 20px;
+        gap: 20px;
+    }
+    .about_section2 > h3{
+        font-size: 25px;
+    }
+    .about_section2 > h1{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .value{
+        flex-direction: column;
+    }
+    .value_card{
+        width: 100%;
+    }
+
+    .services{
+        padding: 0px 20px;
+    }
+    .services_card{
+        width: 100%;
+        padding: 0px 20px 30px 20px;
+    }
+
+    .query{
+        padding: 50px 20px !important;
+    }
+    .query_contact_container{
+        flex-direction: column;
+        gap: 40px !important;
+    }
+    .query_contact_bit{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .query_icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+    .hero_section{
+        padding: 15px 20px 50px 20px;
+    }
+    .header_nav{
+        gap: 40px;
+    }
+    .contact_num{
+        display: none;
+    }
+
+    .section1{
+        padding: 15px 20px 15px 20px;
+    }
+    .section1_left{
+        width: 55%;
+        height: 450px;
+    }
+    .section1_right{
+        height: 450px;
+        gap: 20px;
+    }
+    .section1_right > h3{
+        font-size: 24px;
+    }
+    .section1_right > h1{
+        font-size: 30px;
+    }
+    .section1_right_btn{
+        width: 50%;
+    }
+
+    .section2{
+        padding: 70px 20px 400px 20px;
+    }
+    .service_box{
+        width: 45%;
+    }
+    .read_book_appointment{
+        padding: 0px 20px 0px 20px;
+        height: 500px;
+    }
+    .read_book_left{
+        padding: 20px 20px;
+        gap: 20px;
+        justify-content: center;
+    }
+    .read_book_left > h1{
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .section3{
+        padding: 10px 20px 10px 20px;
+    }
+    .section3 > h3{
+        font-size: 25px;
+    }
+
+    .nurse_duty{
+        padding: 0px 20px;
+    }
+    .nurse_duty_right{
+        width: 50%;
+    }
+
+    .section4{
+        padding: 80px 20px 150px 20px;
+    }
+    .testimonial_card{
+        width: 100%;
+    }
+
+    .section5{
+        padding: 50px 20px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .section5_bit{
+        flex-direction: column;
+    }
+    .section5_bit > h3{
+        text-align: center;
+        line-height: 30px;
+    }
+    .phone_icon{
+        width: 50px;
+        height: 50px;
+    }
+    .section5_icon{
+        font-size: 15px;
+    }
+
+    .footer_top{
+        flex-direction: column;
+        padding: 0px 0px;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer_logo_part{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .social{
+        justify-content: center;
+    }
+    .footer_links{
+        align-items: center;
+    }
+    .footer_links > h2{
+        font-size: 20px;
+    }
+    .footer_links > a{
+        font-size: 16px;
+    }
+    .footer_bottom{
+        width: 100%;
+        border-top: 1px solid rgb(236, 236, 236);
+        padding: 50px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .footer_bottom > p{
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .services{
+        padding: 0px 20px !important;
+    }
+    .services_card{
+        width: 48%;
+        padding: 0px 20px 30px 20px;
+    }
+
+    .not_sure{
+        height: auto;
+        padding: 0px 20px 0px 20px;
+    }
+    .not_sure_book{
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .not_sure_book_right{
+        width: 100%;
+        height: 450px;
+    }
+    .not_sure_book_left{
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        gap: 15px;
+    }
+    .not_sure_book_left > h1{
+        font-size: 25px;
+    }
+
+    .query{
+        padding: 50px 20px !important;
+    }
+    .query_contact_container{
+        flex-direction: column;
+        gap: 40px !important;
+    }
+    .query_contact_bit{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .query_icon{
+        width: 50px;
+        height: 50px;
+    }
+}
